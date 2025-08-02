@@ -1,2 +1,162 @@
-# The-Tribhuvan-School
-Read the description of The Tribhuvan School!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to TTS!</title>
+  <style>
+    body {
+      background-color: grey;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0 20px;
+    }
+
+    h1, h3 {
+      text-align: center;
+    }
+
+    table, td, th {
+      border: 5px solid purple;
+      text-align: center;
+      border-collapse: collapse;
+    }
+
+    th:hover {
+      background-color: green;
+    }
+
+    td:hover {
+      background-color: orange;
+    }
+
+    table:hover {
+      background-color: purple;
+    }
+
+    caption {
+      color: yellow;
+      font-style: italic;
+      font-weight: bold;
+      text-decoration: underline;
+      margin-bottom: 10px;
+    }
+
+    hr {
+      background-color: magenta;
+      width: 100%;
+      height: 10px;
+      border: none;
+    }
+
+    ul {
+      list-style-type: square;
+      margin-left: 20px;
+    }
+
+    ol {
+      margin-left: 20px;
+    }
+
+    /* === AUTO SCROLL === */
+    .marquee-container {
+      overflow: hidden;
+      width: 100%;
+      background-color: grey;
+    }
+
+    .marquee-track {
+      display: flex;
+      width: max-content;
+      animation: scroll-left 40s linear infinite;
+    }
+
+    .marquee-track img {
+      width: 300px;
+      height: 300px;
+      margin-right: 10px;
+      border: 3px solid white;
+      flex-shrink: 0;
+    }
+
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .marquee-track img {
+        width: 200px;
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="marquee-container">
+    <div class="marquee-track">
+      <img src="https://play-lh.googleusercontent.com/zHOqC-t9FPM1THZME9_llnfePbiPrt2PR_ZFg9nWOiCGupwgZs2q5xD_ro8SPpAYc-RW" alt="School Logo">
+      <img src="https://www.thetribhuvanschool.com/gallery/Tribhubhanenza_202223/medium/1713959087.jpeg" alt="The Tribhuvanenza">
+      <img src="https://www.thetribhuvanschool.com/gallery/SAGA_FIESTA_2023/large/1714516107.jpeg" alt="The SAGA FIESTA">
+      <img src="https://preprimaryschools.com/assets/uploads/school/gallery/23022022024354_4_969496_The-Tribhuvan-School-Patna-(5).jpg" alt="School Campus">
+      <img src="https://www.thetribhuvanschool.com/gallery/International_Yoga_Day_2024/large/1719055849.jpeg" alt="Yoga Day">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.Quplb8ijGmIFDeDGd2XLtgHaHv?pid=Api&P=0&h=180" alt="Principal Mahua Das Gupta">
+      <img src="https://www.thetribhuvanschool.com/images/Welcome_BG-new.png" alt="Students">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.N2uVCrYd8JMyR6-sb0tjiAHaD4?pid=Api&P=0&h=180" alt="In memory of Shri Tribhuvan Prasad Singh">
+    </div>
+  </div>
+
+  <hr>
+
+  <h1 style="color:red;">WELCOME!</h1>
+  <h3 style="color:blue;">To The Tribhuvan School!</h3>
+
+  <table>
+    <caption>Fees</caption>
+    <thead>
+      <tr>
+        <th>Fee Type</th>
+        <th>Cost</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Bi-monthly fees</td>
+        <td>Rs 40,000/- (estimated)</td>
+      </tr>
+      <tr>
+        <td>Monthly fees</td>
+        <td>Rs 8,000/- (estimated)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h1 style="color:goldenrod;">Key Factors:</h1>
+  <ul>
+    <li>The Tribhuvan School, Patna is an initiative of the Trinity Wisdom Education, Welfare and Cultural Society — a name synonymous with holistic, wholesome, and quality education.</li>
+    <li>The Tribhuvan School (TTS), located at Plot No. 328, 331, 332, 333, Ashupur, Khagol, Danapur, Patna, Bihar, is one of the most popular schools in India.</li>
+    <li>The school has been rated by 75 individuals on iCBSE.</li>
+    <li>This school is counted among the top-rated schools in Bihar with an excellent academic track record.</li>
+    <li>It was established in memory of a great visionary to take forward and embed the tradition of excellence and innovation in the next generation.</li>
+  </ul>
+
+  <h1 style="color:aqua;">Facts:</h1>
+  <ol type="i">
+    <li>Recognized by the Central Board of Secondary Education (CBSE)</li>
+    <li>Co-curricular activities include indoor games, outdoor games, dance rooms, music rooms, and regular medical checkups.</li>
+    <li>Principal / Headmaster: Mahua Das Gupta</li>
+    <li>Status: Senior Secondary School</li>
+    <li>Founded in the year 2013</li>
+    <li>Medium of instruction: English</li>
+    <li>Total area: 9752.92 square meters (approximately 2.41 acres)</li>
+  </ol>
+  <h1 style="color:chocolate">From the principal's desk</h1>
+  <h2>"Learning gives creativity, creativity leads to thinking, Thinking provides knowledge, knowledge makes you great."</h2>
+  <p style="color:magenta"><i><b><br><br>APJ Abdul Kalam Learning is a lifelong experience and here at The Tribhuvan School, we aim to develop children as lifelong learners. Keeping our school motto in mind ‘Let Wisdom Prevail’, we emphasize upon holistic development of a child by fostering a blend of scholastic and co-scholastic activities. Wisdom is not just about mugging up books but rather it’s a mix of experience, knowledge, and good judgement. Academics is important, but practical intelligence helps one to cope with daily challenges in life. We value the individuality of each student, while hone and foster this talent believing each student is unique. If we help the children to discover their inner self, every dream would become a reality and all fears conquerable. With our broad curriculum spectrum coupled with individual attention to the potential of each student, we expect our students to gain academic excellence of national benchmark. The infrastructure of the school that matches with the best of the institutions is being constantly upgraded to make schooling a fun filled experience. Despite being a relatively new school in the state, I feel proud to congratulate the students for their glorious achievements through the years in different fields. The journey so far has been worthwhile; however, I believe there are many more milestones to cross. As teachers, what do we give to our students? We give them roots, a foundation to stay grounded yet flourish, giving them wings to take off to realize dreams in their flight. I believe that I can draw upon the collective efforts of all members of The Tribhuvan Family; a wonderful management, parents, teachers and the entire staff to share my optimism and partner with me in this growth.</b></i></p>
+</body>
+</html>
